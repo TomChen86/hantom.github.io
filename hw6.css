@@ -1,0 +1,72 @@
+@charset "utf-8";
+div#container {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  background: rgb(187,173,160);
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.brick {
+    float: left;
+    background-color:rgb(204,192,179) ;
+    margin: 10px;
+    font-size: 3em;
+    text-align: center;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    font-family:sans-serif;
+    font-weight: 600;
+    font-size: 4em;
+    line-height: 130px;
+    color: rgb(118,109,100);
+}
+
+.brick2 {
+  background-color:rgb(238,228,218) ;
+}
+.brick4 {
+  background-color:rgb(237,224,200) ;
+}
+.brick8 {
+  background-color:rgb(239,178,124) ;
+  color: rgb(249,250,247);
+}
+.brick16 {
+  background-color:rgb(235,154,111) ;
+  color: rgb(249,250,247);
+}
+.brick32 {
+  background-color:rgb(242,125,99) ;
+  color: rgb(249,250,247);
+}
+.brick64 {
+  background-color:rgb(244,96,67) ;
+  color: rgb(249,250,247);
+}
+.brick128 {
+  background-color:rgb(234,207,118) ;
+  color: rgb(249,250,247);
+}
+.brick256 {
+  background-color:rgb(237,203,102) ;
+  color: rgb(249,250,247);
+}
+.brick512 {
+  background-color:rgb(236,199,88) ;
+  color: rgb(249,250,247);
+}
+.brick1024 {
+  background-color:rgb(231,194,88) ;
+  color: rgb(249,250,247);
+}
+.brick2048 {
+  background-color:rgb(229,191,79) ;
+  color: rgb(249,250,247);
+}
+.brick:nth-of-type(4n+1) {
+    clear: both;
+}
