@@ -16,11 +16,6 @@
   },
   "main": "index.tsx",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "name": "fgxed0",
-  "version": "0.0.0"
+    "start": "react-scripts start"
+  }
 }
